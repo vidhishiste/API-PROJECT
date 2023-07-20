@@ -142,7 +142,7 @@ ul{
     }
 }
 
-@media screen and (max-width:300px) {
+@media only screen and (max-width:300px) {         
     .container{
         font-size: 14px; 
         /* display: inline-block;   */
