@@ -1,6 +1,6 @@
 # API-PROJECT
 
-Recipe APP using MealDB API 
+Recipe APP using MealDB API (https://www.themealdb.com/api.php)
 
 To use this project :
 1. Download the Zip folder
