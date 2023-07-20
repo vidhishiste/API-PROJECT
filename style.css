@@ -140,6 +140,27 @@ ul{
     .container{
         font-size: 14px;   
     }
+    .search-container{
+        width: 100%;
+        display:grid;
+        grid-template-columns:none;
+    }
+    .search-container input{
+         align-items: center;
+    }
+    .search-container button{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+    
+    .view-recipe-btn{
+        margin-right: 30px;
+        margin-bottom: 0px;
+    }
+    #hide-recipe{
+        margin-right: 300px;
+    }
 }
 
 @media only screen and (max-width:300px) {         
