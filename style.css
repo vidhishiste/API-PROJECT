@@ -142,11 +142,15 @@ ul{
     }
     .search-container{
         width: 100%;
-        display:grid;
+        margin: 0 auto;
+        /* text-align: center;
+        display:inline-block; */
         grid-template-columns:none;
     }
     .search-container input{
          align-items: center;
+         text-align: center;
+        display:inline-block;
     }
     .search-container button{
         display: inline-block;
@@ -170,6 +174,7 @@ ul{
     }
     .search-container{
         width: 100%;
+        margin: 0 auto;
         display:grid;
         grid-template-columns:none;
     }
