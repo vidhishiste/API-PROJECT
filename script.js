@@ -42,7 +42,7 @@ searchbtn.addEventListener("click", () => {
     <div id ="ingredient-con">
     </div>
     <div id = "recipe">
-    <button id="hide-recipe"> x </button>
+    <button class = "hide-button" id="hide-recipe"> x </button>
     <pre id="instructions">${mymeal.strInstructions} </pre>
     </div>
     <div class = "view-recipe-btn">
