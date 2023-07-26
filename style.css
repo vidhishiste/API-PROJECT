@@ -138,9 +138,10 @@ ul{
     padding: 1.2em 0 0 1.2em;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     .container{
-        font-size: 14px;   
+        font-size: 14px;  
+        overflow: none; 
     }
 
     img{
@@ -148,12 +149,10 @@ ul{
         margin-bottom: 10px;
     }
     .search-container{
-        width: 100%; */
+        width: 100%;  
+        display: flex;
+        flex-direction: column;
         
-        /* text-align: center;
-        display:inline-block; */
-        display: grid;
-        grid-template-columns:none;
     }
     .search-container input{
          align-items: center;
@@ -176,11 +175,50 @@ ul{
     #hide-recipe{
         margin-block-end: 20px;
     }
-}
-
-@media only screen and (max-width:300px) {         
+} */
+@media only screen and (max-width: 300px){
     .container{
         font-size: 14px; 
+        overflow: none;
+    }
+    .details h2{
+        font-size: 1.2em;
+    }
+    .details h4{
+        font-size: 0.8em;
+    }
+    img{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .search-container{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .search-container input{
+         align-items: center;
+         text-align: center;
+         font-size: 12px;
+    }
+    .search-container button{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .view-recipe-btn{
+        margin-right: 30px;
+        margin-bottom: 0px;
+    }
+    .hide-button{
+        margin-right: 300px;
+    }
+}
+
+@media (300px <= width <= 500px) {         
+    .container{
+        font-size: 14px; 
+        /* overflow: none; */
         /* display: inline-block;   */
     }
     .details h2{
@@ -194,13 +232,15 @@ ul{
         margin-bottom: 10px;
     }
     .search-container{
-        margin: 0 auto 0 auto;
+        /* margin: 0 auto 0 auto; */
         width: 100%;
+        /* align-items: center; */
         /* margin-right: 100px; */
         display:flex;
         flex-direction: column;
     }
     .search-container input{
+        text-align: center;
          align-items: center;
          font-size: 12px;
     }
